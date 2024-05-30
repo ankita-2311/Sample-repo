@@ -1,0 +1,63 @@
+.my-style{
+  background-color:#C39898;
+  color:#6F4E37;
+  border: 3px solid #000;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: 5%;
+  @media
+}
+.PARENT{
+  position: relative;
+  background-color: #DBB5B5;
+  width: 100%;
+  height:300px;
+}
+.CHILD{
+  position: absolute;
+  display:inline-block;
+  background-color: #9DDE8B;
+  width: 100px;
+  height:70px;
+  margin: 4px 4px 20px;
+  bottom: 0;
+  right: 0;
+}
+body{
+  background-color:#686D76;
+}
+@media (min-width:768px){
+  body{
+    background-color:#A67B5B;
+  }
+}
+
+@media (min-width:1024px){
+  body{
+    background-color:#799351;
+  }
+}
+@media(min-width 1280px) {
+  body{
+    background-color:#8E3E63;
+  }
+
+}
+
+
+#my-id{
+  background-color:#A1DD70;
+  color:#6F4E37;
+  border: 2px dotted #000;
+}
+p {
+  background-color:#6DC5D1 ;
+  color:#FF5F00 ;
+  border: 3px dotted #100;
+}
